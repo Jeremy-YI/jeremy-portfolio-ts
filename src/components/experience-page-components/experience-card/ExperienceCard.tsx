@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { ExperienceProps } from '@/utils/constants/interfaces'
+import { ExperienceProps } from '@/constants/interfaces'
 
 const ExperienceCard: FC<ExperienceProps> = (props) => {
   const { id, image, role, company, date, skills } = props

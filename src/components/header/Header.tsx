@@ -1,8 +1,8 @@
 import { FC, useState, useEffect } from 'react'
-import { navLinks } from '@/utils/constants/constants'
+import { navLinks } from '@/constants/constants'
 import NavLink from '@/components/nav-link'
 import DarkModeButton from '@/components/dark-mode-button'
-import { useDarkMode } from '@/utils/hooks/useDarkMode'
+import { useDarkMode } from '@/hooks/useDarkMode'
 import LogoSection from '@/components/logo-section'
 import { GiHamburgerMenu } from 'react-icons/gi'
 

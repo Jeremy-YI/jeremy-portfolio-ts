@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import Button from '@/components/custom-button/CustomButton'
 import { MotionConfig } from 'framer-motion'
-import { UserInfo } from '@/utils/constants/interfaces'
+import { UserInfo } from '@/constants/interfaces'
 
 const SubmitButton: FC<UserInfo> = (props) => {
   const { name, email, message } = props

@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { Skills as SkillItemProps } from '@/utils/constants/interfaces'
+import { Skills as SkillItemProps } from '@/constants/interfaces'
 
 const SkillItem: FC<SkillItemProps> = (props) => {
   const { name, image } = props

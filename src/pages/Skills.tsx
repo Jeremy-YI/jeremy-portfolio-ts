@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { skills } from '@/utils/constants/constants'
+import { skills } from '@/constants/constants'
 import SkillCard from '@/components/skills-page-components/skill-card'
 
 const Skills: FC = () => {

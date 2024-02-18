@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { SkillProps } from '@/utils/constants/interfaces'
+import { SkillProps } from '@/constants/interfaces'
 import SkillItem from '@/components/skills-page-components/card-item'
 
 const SkillCard: FC<SkillProps> = (props) => {

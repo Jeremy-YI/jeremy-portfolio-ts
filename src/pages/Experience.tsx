@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import ExperienceCard from '@/components/experience-page-components/experience-card'
-import { ExperienceProps } from '@/utils/constants/interfaces'
-import { experiences } from '@/utils/constants/constants'
+import { ExperienceProps } from '@/constants/interfaces'
+import { experiences } from '@/constants/constants'
 
 const Experience: FC<ExperienceProps> = () => {
   return (

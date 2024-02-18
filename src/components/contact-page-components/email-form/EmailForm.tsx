@@ -1,7 +1,7 @@
 import { FC, useState } from 'react'
 import axios from 'axios'
 import SubmitButton from '../submit-button'
-import { UserInfo } from '@/utils/constants/interfaces'
+import { UserInfo } from '@/constants/interfaces'
 
 const EmailForm: FC = () => {
   const [userInfo, setUserInfo] = useState<UserInfo>({
