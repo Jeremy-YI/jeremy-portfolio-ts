@@ -1,6 +1,6 @@
 export { default as HomePage } from './Home'
 export { default as SkillsPage } from './Skills'
-export { default as ExperiencesPage } from './Experience'
+export { default as ExperiencePage } from './Experience'
 export { default as ProjectsPage } from './Projects'
 export { default as ContactPage } from './Contact'
 export { default as NotFoundPage } from './NotFound'

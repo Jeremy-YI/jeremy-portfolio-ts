@@ -3,7 +3,7 @@ import AppLayout from '@/components/app-layout'
 import {
   HomePage,
   SkillsPage,
-  ExperiencesPage,
+  ExperiencePage,
   ProjectsPage,
   ContactPage,
   NotFoundPage,
@@ -15,7 +15,7 @@ function Pages() {
       <Route path="/" element={<AppLayout />}>
         <Route index element={<HomePage />} />
         <Route path="skills" element={<SkillsPage />} />
-        <Route path="experiences" element={<ExperiencesPage />} />
+        <Route path="experience" element={<ExperiencePage />} />
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="contact" element={<ContactPage />} />
       </Route>
