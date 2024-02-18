@@ -11,7 +11,3 @@ You will need to have Node.js installed on your machine.
 1. Clone the repository
 2. Run `npm install` to install the dependencies
 3. Run `npm run dev` to start the development server
-
-## Deployment
-
-Run `npm run build` to build the project. The build artifacts will be stored in the `build/` directory.

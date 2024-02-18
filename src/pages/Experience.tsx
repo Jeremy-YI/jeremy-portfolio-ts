@@ -3,7 +3,7 @@ import ExperienceCard from '@/components/experience-page-components/experience-c
 import { ExperienceProps } from '@/constants/interfaces'
 import { experiences } from '@/constants/constants'
 
-const Experience: FC<ExperienceProps> = () => {
+const Experiences: FC<ExperienceProps> = () => {
   return (
     <div className="max-container">
       {experiences.map((experience) => (
@@ -20,4 +20,4 @@ const Experience: FC<ExperienceProps> = () => {
   )
 }
 
-export default Experience
+export default Experiences
