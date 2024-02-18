@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat, sans-serif';
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+@layer utilities {
+  .light-theme {
+    @apply bg-light-background text-light-default text-lg;
+  }
+  .dark-theme {
+    @apply bg-dark-background text-dark-default font-sans;
+  }
+  .dark-button {
+    @apply bg-light-background text-light-default;
+  }
+  /* margin */
+  .margin {
+    @apply mt-10 mb-10;
+  }
+  /* padding */
+  .padding {
+    @apply sm:px-16 px-8 sm:py-24 py-20;
+  }
+  .padding-x {
+    @apply md:px-16 px-8;
+  }
+  .padding-y {
+    @apply md:py-12 py-8;
+  }
+  /* max-lg */
+  .max-lg {
+    @apply flex-col-reverse md:flex-row;
+  }
+  /* input form */
+  .input-form {
+    @apply text-xl p-3 border border-[#e0e0e0] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#00b0ff] focus:border-transparent w-full mt-5;
+  }
+}
